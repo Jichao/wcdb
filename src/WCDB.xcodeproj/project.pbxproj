@@ -11269,6 +11269,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 234F0370227A9E3D00DD65A2 /* WCDB.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				MODULEMAP_FILE = "$(SRCROOT)/support/WCDBSwift.modulemap";
 			};
 			name = Debug;
@@ -11277,6 +11278,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 234F0370227A9E3D00DD65A2 /* WCDB.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				MODULEMAP_FILE = "$(SRCROOT)/support/WCDBSwift.modulemap";
 			};
 			name = Release;
